@@ -1,0 +1,231 @@
+:root {
+    /* Color */
+   
+    --bg-body: #f2f2f2;
+    --bg-body-2: #f6f6f8;
+    --bg-white: #fff;
+    --kolor-1: #0d604f;
+    --kolor-2: #1fb168;
+    --kolor-3: #a1a1a1;
+    --kolor-4: #000;
+
+    /* Font */
+    --font-monserrat: 'Monserrat', sans-serif;
+    --font-old-standard: 'Old Standard TT', sans-serif;
+
+    /* Font-weight Monserrat */
+    --font-mon-200: 200;
+    --font-mon-300: 300;
+    --font-mon-500: 500;
+    --font-mon-600: 600;
+
+    /* Font-weight Old Standard TT */
+    --font-old-400: 400;
+    --font-old-700: 700;
+    --font-old-bold: bold;
+}
+
+body {
+    background-color: var(--bg-body) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* icons color start */
+
+.fa-mobile-alt , .fa-envelope , .fa-mobile-alt {
+    color: var(--kolor-2);
+}
+
+/* icons color end */
+
+/* Navbar start */
+
+.navbar {
+    height: 14vh;
+}
+
+.navbar-toggler  {
+    border:  0 !important;
+    outline: none !important;
+}
+
+.navbar .adwokat {
+    color: var(--kolor-4);
+    font-size: 17px !important;
+    font-family: var(--font-old-standard);
+    font-weight: var(--font-old-400);
+}
+
+.navbar .jazda {
+    font-size: 35px !important;
+    font-family: var(--font-old-standard);
+    font-weight: var(--font-old-700);
+    color: var(--kolor-1);
+}
+
+.navbar .number-0 {
+    font-size: 17px !important;
+    color: var(--kolor-1);
+    font-weight: bold;
+    font-family: var(--font-old-standard);
+    margin-left: 20px;
+}
+
+.navbar .adwokat-1 {
+    color: var(--kolor-3);
+    font-size: 15px !important;
+    font-family: var(--font-old-standard);
+    font-weight: var(--font-old-400);
+}
+
+.navbar .adwokat-1 .fa {
+    font-size: 20px !important;
+}
+
+.navbar .number-0{
+    font-size: 25px !important;
+}
+
+.navbar .number, .mail {
+    font-size: 15px !important;
+    font-family: var(--font-old-standard);
+    font-weight: var(--font-old-400);
+    color: var(--kolor-3);
+}
+
+.navbar {
+    color: var(--kolor-2);
+}
+
+/* Navbar end */
+
+/* Navbar-2 start */
+.navbar-2 {
+    height: 5vh;
+}
+
+.navbar-2 .fa-house-chimney {
+    font-size: 13.5px !important;
+}
+
+.navbar-2 .green-link {
+    content: '';
+    border-bottom: 8px solid var(--kolor-2);
+    margin-left: -26px;
+    margin-bottom: -8px;
+    width: 40px;
+    max-width: 100px;
+}
+
+.navbar-2 .navbar-nav {
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+.navbar-2 .nav-item {
+    font-family: var(--font-monserrat);
+    margin: 0 0 0 15px;
+    text-transform: uppercase;
+}
+
+.navbar-2 .nav-link {
+    font-size: 0.78rem;
+    color: var(--kolor-4);
+    font-weight: var(--font-mon-500);
+
+}
+
+/* Navbar-2 end */
+
+/* Header-1 start */
+
+.header-1 h1{
+    font-size: 17px !important;
+    font-family: var(--font-old-standard);
+}
+
+.header-1 span {
+    font-weight: var(--font-old-bold);
+}
+
+.header-1 p {
+    font-size: 15px;
+    font-weight: var(--font-old-bold);
+    color: var(--kolor-2);
+    margin-top: -10px !important;
+}
+
+.header-1 .icons {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: var(--font-monserrat);
+}
+
+.header-1 .icons a {
+    list-style: none !important;
+    text-decoration: none !important;
+    color: var(--kolor-1);
+}
+
+.header-1 .fa-envelope , .fa-mobile-alt {
+    font-size: 12px;
+}
+
+.header-1 .number {
+    font-weight: bold;
+}
+/* Header-1 end */
+
+/* Header-2 start */
+.header-2 .box-white {
+    background-color: var(--bg-white);
+    height: auto;
+    width: 100%;
+}
+
+.header-2 .wpisy {
+    font-size: 23px;
+    font-family: var(--font-old-standard);
+}
+
+/* Header-2 end */
+
+
+/* Header-3 start */
+.header-3 .logo5{
+    background-image: url('../img/logo5.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-left: -700px;
+    opacity: 0.3;
+}
+
+.header-3 .nigdy {
+    font-family: var(--font-old-standard);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    max-width: 1030px;
+    margin-top: -340px !important;
+}
+
+.header-3 .jaroslaw {
+    font-family: var(--font-monserrat);
+    font-size: 15px;
+    color: var(--kolor-3);
+}
+
+.header-3 .polecamy {
+    font-size: 30px;
+    font-family: var(--font-old-standard);
+    margin-top: 100px;
+}
+/* Header-3 end */
